@@ -1,0 +1,19 @@
+{
+  "name": "@hadyrashwan/cool-images-dir",
+  "version": "1.0.0",
+  "description": "make images and sentences",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run image && npm run word",
+    "image": "node images.js",
+    "word": "node words.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cool-images": "^1.0.1",
+    "image-downloader": "^3.3.0",
+    "random-sentence": "^1.0.4"
+  }
+}
